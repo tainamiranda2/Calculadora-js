@@ -1,0 +1,57 @@
+<html>
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta charset="utf-8">
+    <link rel=stylesheet href="css/bootstrap-4.5.0-dist/css/bootstrap-reboot.min.css">
+    <link rel=stylesheet href="css/estilo.css">
+
+    <script src="script.js">
+    </script>
+</head>
+
+<body>
+
+    <form name="calc">
+        <div id="calculadora">
+
+            <input class="vi" type="text" name="visor" placeholder="O resultado do calculo">
+
+            <br></br>
+            <div id="primeira">
+                <!--funcao para calcular-->
+                <input type="button" value="1" class="botao borda" onclick="botao(value)">
+                <input type="button" value="2" class="botao borda" onclick="botao(value)">
+                <input type="button" value="3" class="botao borda" onclick="botao(value)">
+                <input type="button" value="/" class="botao borda1" onclick="botao(value)">
+            </div>
+
+            <div id="segunda">
+                <input type="button" value="4" class="botao borda" onclick="botao(value)">
+                <input type="button" value="5" class="botao borda" onclick="botao(value)">
+                <input type="button" value="6" class="botao borda" onclick="botao(value)">
+                <input type="button" value="*" class="botao borda1" onclick="botao(value)">
+            </div>
+            <div id="terceira">
+                <input type="button" value="7" class="botao borda" onclick="botao(value)">
+                <input type="button" value="8" class="botao borda" onclick="botao(value)">
+                <input type="button" value="9" class="botao borda" onclick="botao(value)">
+                <input type="button" value="+" class="botao borda1" onclick="botao(value)">
+            </div>
+            <div id="quarta">
+                <input type="button" value="C" class="botao borda" onclick=reset()>
+                <input type="button" value="0" class="botao borda" onclick="botao(value)">
+                <input type="button" value="=" class="botao borda ta" onclick=calcula()>
+                <input type="button" value="-" class="botao borda1" onclick="botao(value)">
+            </div>
+        </div>
+    </form>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+
+</html>
